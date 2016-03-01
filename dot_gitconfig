@@ -1,0 +1,20 @@
+[user]
+        email = maheshmukundan@gmail.com
+        name = Mahesh M
+[alias]
+        r = reset
+        r1 = reset HEAD^
+        r2 = reset HEAD^^
+        rh = reset --hard
+        rh1 = reset HEAD^ --hard
+        rh2 = reset HEAD^^ --hard
+        sl = stash list
+        sa = stash apply
+        ss = stash save
+
+[core]
+        editor = emacsclient
+[color]
+        ui = auto
+[push]
+        default = current

@@ -1,0 +1,56 @@
+ZSH=$HOME/.oh-my-zsh
+
+ZSH_THEME="pygmalion"
+export TERM="xterm-256color"
+
+export UPDATE_ZSH_DAYS=5
+COMPLETION_WAITING_DOTS="true"
+
+plugins=(
+  battery
+  bundler
+  cp
+  colorize
+  copydir
+  copyfile
+  emacs
+  gem
+  git-extras
+  git
+  gitfast
+  github
+  gnu-utils
+  heroku
+  history-substring-search
+  iwhois
+  last-working-dir
+  per-directory-history
+  postgres
+  rails
+  rake-fast
+  rake
+  repo
+  ruby
+  rvm
+  safe-paste
+  ssh-agent
+  themes
+  thor
+  urltools
+  web-search
+  zeus
+  zsh_reload
+  mix
+  mix_fast
+)
+
+source $ZSH/oh-my-zsh.sh
+
+source $HOME/.aliases
+source $HOME/.paths
+source $HOME/.utilities
+
+export ALTERNATE_EDITOR=""
+export EDITOR=emacsclient
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
