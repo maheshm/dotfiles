@@ -4,7 +4,6 @@ ZSH_THEME="pygmalion"
 export TERM="xterm-256color"
 
 export UPDATE_ZSH_DAYS=5
-COMPLETION_WAITING_DOTS="true"
 
 plugins=(
   battery
@@ -47,8 +46,6 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 source $HOME/.aliases
-source $HOME/.paths
-source $HOME/.utilities
 
 export ALTERNATE_EDITOR=""
 export EDITOR=emacsclient

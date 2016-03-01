@@ -13,7 +13,7 @@ alias r="rails"
 # emacs
 if [[ `uname` != 'Darwin' ]]
 then
-  alias emacs="/usr/local/bin/emacs -nw"
+  alias emacs="/usr/bin/emacs -nw"
 fi
 
 alias ec="emacsclient"
