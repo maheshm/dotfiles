@@ -11,7 +11,6 @@ plugins=(
   colorize
   copydir
   copyfile
-  emacs
   gem
   git-extras
   git
@@ -47,11 +46,10 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 
 export ALTERNATE_EDITOR=""
-export EDITOR=emacsclient
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+#if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 #export PATH="$HOME/.exenv/bin:$PATH"
 #eval "tmux"
