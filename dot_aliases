@@ -13,7 +13,7 @@ then
   alias emacs="/usr/bin/emacs -nw"
 fi
 
-alias ec="emacsclient"
+alias ec="emacsclient -c"
 
 # ping check
 alias google="ping www.google.co.in"
