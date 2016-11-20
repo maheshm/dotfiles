@@ -8,9 +8,9 @@ alias be="b exec"
 alias r="rails"
 
 # emacs
-if [[ `uname` != 'Darwin' ]]
+if [[ `uname` == 'Darwin' ]]
 then
-  alias emacs="/usr/bin/emacs -nw"
+  alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
 fi
 
 alias ec="emacsclient -c"
