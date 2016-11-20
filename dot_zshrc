@@ -39,6 +39,7 @@ plugins=(
   zsh_reload
   mix
   mix_fast
+  notify
 )
 
 source $ZSH/oh-my-zsh.sh
